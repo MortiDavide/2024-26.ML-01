@@ -23,6 +23,7 @@ jobs:
         with:
           python-version: '3.13.1' 
       - run: python --version
+      - run: pip install -r requirements.txt
+        working-directory: morti
       - run: python training_ML_morti.py
         working-directory: morti
-      - run: pip install -r requirements.txt
