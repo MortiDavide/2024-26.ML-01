@@ -8,3 +8,4 @@ jobs:
       - run: echo "qualcosa"
       - run: echo "ciao jade"
       - run: python --version
+      - run: pip --version
