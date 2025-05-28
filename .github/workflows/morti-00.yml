@@ -23,5 +23,5 @@ jobs:
         with:
           python-version: '3.13.1' 
       - run: python --version
-        working-directory: morti
       - run: python training_ML_morti.py
+        working-directory: morti
