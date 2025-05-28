@@ -9,3 +9,8 @@ jobs:
       - run: echo "ciao jade"
       - run: python --version
       - run: pip --version
+      - run: ipconfig
+      - run: lsb_release -d
+      - run: ls -la
+      - run: pwd
+      - run: env
