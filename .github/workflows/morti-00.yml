@@ -25,5 +25,5 @@ jobs:
       - run: python --version
       - run: pip install -r requirements.txt
         working-directory: morti
-      - run: python training_ML_morti.py
+      - run: python training_ML_morti.py --dataset_path=morti\house_price_regression_dataset.csv
         working-directory: morti
