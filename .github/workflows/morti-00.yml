@@ -7,3 +7,4 @@ jobs:
     steps: 
       - run: echo "qualcosa"
       - run: echo "ciao jade"
+      - run: python --version
