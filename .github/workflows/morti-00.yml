@@ -19,3 +19,10 @@ jobs:
           sparse-checkout: |
             morti
       - run: ls -la
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13.1' 
+      - run: python my_script.py
+      - run: python --version
+        working-directory: morti
+      - run: training_ML_morti.py
