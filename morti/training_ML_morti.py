@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, mean_absolute_percentage_error
 
-df = pd.read_csv(r"morti\house_price_regression_dataset.csv")
+df = pd.read_csv("house_price_regression_dataset.csv")
 
 print(df.head())
 
