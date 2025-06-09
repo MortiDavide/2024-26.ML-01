@@ -27,3 +27,7 @@ jobs:
         working-directory: morti
       - run: python training_ML_morti.py
         working-directory: morti
+      - uses: actions/upload-artifact@v4
+        with:
+          name: my-artifact
+          path: morti/logistic_model.joblib
